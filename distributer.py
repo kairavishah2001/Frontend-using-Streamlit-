@@ -7,7 +7,7 @@ def app():
 
     distributer = st.text_input("Retailer ID")
     option = st.selectbox(
-        'Distributors', ('Suresh Modi', 'Manoj Patel', 'Raj Tiwari'))
+        'Distributors', ('1', '2', '2'))
     st.write('You selected:', option)
 
     button1 = st.button("Order")
